@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA21B1C13C177A100AF93D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1B13C177A100AF93D9 /* UIKit.framework */; };
+		BCA21B1E13C177A100AF93D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1D13C177A100AF93D9 /* Foundation.framework */; };
+		BCA21B2013C177A100AF93D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1F13C177A100AF93D9 /* CoreGraphics.framework */; };
+		BCA21B2613C177A100AF93D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA21B2413C177A100AF93D9 /* InfoPlist.strings */; };
+		BCA21B2913C177A100AF93D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA21B2813C177A100AF93D9 /* main.m */; };
+		BCA21B2C13C177A100AF93D9 /* PostMethodTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA21B2B13C177A100AF93D9 /* PostMethodTestAppDelegate.m */; };
+		BCA21B2F13C177A100AF93D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA21B2D13C177A100AF93D9 /* MainWindow.xib */; };
+		BCA21B3213C177A100AF93D9 /* PostMethodTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA21B3113C177A100AF93D9 /* PostMethodTestViewController.m */; };
+		BCA21B3513C177A100AF93D9 /* PostMethodTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA21B3313C177A100AF93D9 /* PostMethodTestViewController.xib */; };
+		BCA21B3C13C177A100AF93D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1B13C177A100AF93D9 /* UIKit.framework */; };
+		BCA21B3D13C177A100AF93D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1D13C177A100AF93D9 /* Foundation.framework */; };
+		BCA21B3E13C177A100AF93D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA21B1F13C177A100AF93D9 /* CoreGraphics.framework */; };
+		BCA21B4613C177A100AF93D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA21B4413C177A100AF93D9 /* InfoPlist.strings */; };
+		BCA21B4913C177A100AF93D9 /* PostMethodTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BCA21B4813C177A100AF93D9 /* PostMethodTestTests.h */; };
+		BCA21B4B13C177A100AF93D9 /* PostMethodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA21B4A13C177A100AF93D9 /* PostMethodTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA21B3F13C177A100AF93D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA21B0E13C177A000AF93D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA21B1613C177A100AF93D9;
+			remoteInfo = PostMethodTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA21B1713C177A100AF93D9 /* PostMethodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostMethodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA21B1B13C177A100AF93D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCA21B1D13C177A100AF93D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCA21B1F13C177A100AF93D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCA21B2313C177A100AF93D9 /* PostMethodTest-Info.plist */ = {isa = PBXFileReference; path = "PostMethodTest-Info.plist"; sourceTree = "<group>"; };
+		BCA21B2513C177A100AF93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA21B2713C177A100AF93D9 /* PostMethodTest-Prefix.pch */ = {isa = PBXFileReference; path = "PostMethodTest-Prefix.pch"; sourceTree = "<group>"; };
+		BCA21B2813C177A100AF93D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA21B2A13C177A100AF93D9 /* PostMethodTestAppDelegate.h */ = {isa = PBXFileReference; path = PostMethodTestAppDelegate.h; sourceTree = "<group>"; };
+		BCA21B2B13C177A100AF93D9 /* PostMethodTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMethodTestAppDelegate.m; sourceTree = "<group>"; };
+		BCA21B2E13C177A100AF93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BCA21B3013C177A100AF93D9 /* PostMethodTestViewController.h */ = {isa = PBXFileReference; path = PostMethodTestViewController.h; sourceTree = "<group>"; };
+		BCA21B3113C177A100AF93D9 /* PostMethodTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMethodTestViewController.m; sourceTree = "<group>"; };
+		BCA21B3413C177A100AF93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PostMethodTestViewController.xib; sourceTree = "<group>"; };
+		BCA21B3B13C177A100AF93D9 /* PostMethodTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostMethodTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA21B4313C177A100AF93D9 /* PostMethodTestTests-Info.plist */ = {isa = PBXFileReference; path = "PostMethodTestTests-Info.plist"; sourceTree = "<group>"; };
+		BCA21B4513C177A100AF93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA21B4713C177A100AF93D9 /* PostMethodTestTests-Prefix.pch */ = {isa = PBXFileReference; path = "PostMethodTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		BCA21B4813C177A100AF93D9 /* PostMethodTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostMethodTestTests.h; sourceTree = "<group>"; };
+		BCA21B4A13C177A100AF93D9 /* PostMethodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMethodTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA21B1413C177A100AF93D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B1C13C177A100AF93D9 /* UIKit.framework in Frameworks */,
+				BCA21B1E13C177A100AF93D9 /* Foundation.framework in Frameworks */,
+				BCA21B2013C177A100AF93D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA21B3713C177A100AF93D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B3C13C177A100AF93D9 /* UIKit.framework in Frameworks */,
+				BCA21B3D13C177A100AF93D9 /* Foundation.framework in Frameworks */,
+				BCA21B3E13C177A100AF93D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA21B0C13C177A000AF93D9 = {
+			isa = PBXGroup;
+			children = (
+				BCA21B2113C177A100AF93D9 /* PostMethodTest */,
+				BCA21B4113C177A100AF93D9 /* PostMethodTestTests */,
+				BCA21B1A13C177A100AF93D9 /* Frameworks */,
+				BCA21B1813C177A100AF93D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA21B1813C177A100AF93D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B1713C177A100AF93D9 /* PostMethodTest.app */,
+				BCA21B3B13C177A100AF93D9 /* PostMethodTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA21B1A13C177A100AF93D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B1B13C177A100AF93D9 /* UIKit.framework */,
+				BCA21B1D13C177A100AF93D9 /* Foundation.framework */,
+				BCA21B1F13C177A100AF93D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA21B2113C177A100AF93D9 /* PostMethodTest */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B2A13C177A100AF93D9 /* PostMethodTestAppDelegate.h */,
+				BCA21B2B13C177A100AF93D9 /* PostMethodTestAppDelegate.m */,
+				BCA21B2D13C177A100AF93D9 /* MainWindow.xib */,
+				BCA21B3013C177A100AF93D9 /* PostMethodTestViewController.h */,
+				BCA21B3113C177A100AF93D9 /* PostMethodTestViewController.m */,
+				BCA21B3313C177A100AF93D9 /* PostMethodTestViewController.xib */,
+				BCA21B2213C177A100AF93D9 /* Supporting Files */,
+			);
+			path = PostMethodTest;
+			sourceTree = "<group>";
+		};
+		BCA21B2213C177A100AF93D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B2313C177A100AF93D9 /* PostMethodTest-Info.plist */,
+				BCA21B2413C177A100AF93D9 /* InfoPlist.strings */,
+				BCA21B2713C177A100AF93D9 /* PostMethodTest-Prefix.pch */,
+				BCA21B2813C177A100AF93D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA21B4113C177A100AF93D9 /* PostMethodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B4813C177A100AF93D9 /* PostMethodTestTests.h */,
+				BCA21B4A13C177A100AF93D9 /* PostMethodTestTests.m */,
+				BCA21B4213C177A100AF93D9 /* Supporting Files */,
+			);
+			path = PostMethodTestTests;
+			sourceTree = "<group>";
+		};
+		BCA21B4213C177A100AF93D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA21B4313C177A100AF93D9 /* PostMethodTestTests-Info.plist */,
+				BCA21B4413C177A100AF93D9 /* InfoPlist.strings */,
+				BCA21B4713C177A100AF93D9 /* PostMethodTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA21B1613C177A100AF93D9 /* PostMethodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA21B4E13C177A100AF93D9 /* Build configuration list for PBXNativeTarget "PostMethodTest" */;
+			buildPhases = (
+				BCA21B1313C177A100AF93D9 /* Sources */,
+				BCA21B1413C177A100AF93D9 /* Frameworks */,
+				BCA21B1513C177A100AF93D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostMethodTest;
+			productName = PostMethodTest;
+			productReference = BCA21B1713C177A100AF93D9 /* PostMethodTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA21B3A13C177A100AF93D9 /* PostMethodTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA21B5113C177A100AF93D9 /* Build configuration list for PBXNativeTarget "PostMethodTestTests" */;
+			buildPhases = (
+				BCA21B3613C177A100AF93D9 /* Sources */,
+				BCA21B3713C177A100AF93D9 /* Frameworks */,
+				BCA21B3813C177A100AF93D9 /* Resources */,
+				BCA21B3913C177A100AF93D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA21B4013C177A100AF93D9 /* PBXTargetDependency */,
+			);
+			name = PostMethodTestTests;
+			productName = PostMethodTestTests;
+			productReference = BCA21B3B13C177A100AF93D9 /* PostMethodTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA21B0E13C177A000AF93D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tyfone CDI";
+			};
+			buildConfigurationList = BCA21B1113C177A000AF93D9 /* Build configuration list for PBXProject "PostMethodTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCA21B0C13C177A000AF93D9;
+			productRefGroup = BCA21B1813C177A100AF93D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA21B1613C177A100AF93D9 /* PostMethodTest */,
+				BCA21B3A13C177A100AF93D9 /* PostMethodTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA21B1513C177A100AF93D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B2613C177A100AF93D9 /* InfoPlist.strings in Resources */,
+				BCA21B2F13C177A100AF93D9 /* MainWindow.xib in Resources */,
+				BCA21B3513C177A100AF93D9 /* PostMethodTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA21B3813C177A100AF93D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B4613C177A100AF93D9 /* InfoPlist.strings in Resources */,
+				BCA21B4913C177A100AF93D9 /* PostMethodTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCA21B3913C177A100AF93D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA21B1313C177A100AF93D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B2913C177A100AF93D9 /* main.m in Sources */,
+				BCA21B2C13C177A100AF93D9 /* PostMethodTestAppDelegate.m in Sources */,
+				BCA21B3213C177A100AF93D9 /* PostMethodTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA21B3613C177A100AF93D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA21B4B13C177A100AF93D9 /* PostMethodTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA21B4013C177A100AF93D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA21B1613C177A100AF93D9 /* PostMethodTest */;
+			targetProxy = BCA21B3F13C177A100AF93D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA21B2413C177A100AF93D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA21B2513C177A100AF93D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCA21B2D13C177A100AF93D9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA21B2E13C177A100AF93D9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BCA21B3313C177A100AF93D9 /* PostMethodTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA21B3413C177A100AF93D9 /* en */,
+			);
+			name = PostMethodTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		BCA21B4413C177A100AF93D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA21B4513C177A100AF93D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA21B4C13C177A100AF93D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCA21B4D13C177A100AF93D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BCA21B4F13C177A100AF93D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostMethodTest/PostMethodTest-Prefix.pch";
+				INFOPLIST_FILE = "PostMethodTest/PostMethodTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCA21B5013C177A100AF93D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostMethodTest/PostMethodTest-Prefix.pch";
+				INFOPLIST_FILE = "PostMethodTest/PostMethodTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCA21B5213C177A100AF93D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostMethodTest.app/PostMethodTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostMethodTestTests/PostMethodTestTests-Prefix.pch";
+				INFOPLIST_FILE = "PostMethodTestTests/PostMethodTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BCA21B5313C177A100AF93D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostMethodTest.app/PostMethodTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostMethodTestTests/PostMethodTestTests-Prefix.pch";
+				INFOPLIST_FILE = "PostMethodTestTests/PostMethodTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA21B1113C177A000AF93D9 /* Build configuration list for PBXProject "PostMethodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA21B4C13C177A100AF93D9 /* Debug */,
+				BCA21B4D13C177A100AF93D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA21B4E13C177A100AF93D9 /* Build configuration list for PBXNativeTarget "PostMethodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA21B4F13C177A100AF93D9 /* Debug */,
+				BCA21B5013C177A100AF93D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCA21B5113C177A100AF93D9 /* Build configuration list for PBXNativeTarget "PostMethodTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA21B5213C177A100AF93D9 /* Debug */,
+				BCA21B5313C177A100AF93D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA21B0E13C177A000AF93D9 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PostMethodTestTests' target in the 'PostMethodTestTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
